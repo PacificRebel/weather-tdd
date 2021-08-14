@@ -1,8 +1,5 @@
 # Weather app using Openweathermap API
 
-This project was bootstrapped with [Create React App]  
-(https://github.com/facebook/create-react-app).
-
 ## 1. Create app:
 npx create-react-app weather-tdd
 
@@ -53,3 +50,7 @@ TypeError: Cannot read property 'then' of undefined
       at Weather.componentDidMount (src/Weather.js:10:5)
 
 https://stackoverflow.com/questions/62405645/how-to-mock-fetch-when-testing-a-react-app
+
+
+This project was bootstrapped with [Create React App]  
+(https://github.com/facebook/create-react-app).
