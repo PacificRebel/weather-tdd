@@ -1,0 +1,41 @@
+{
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [{
+    "id": 803,
+    "main": "I AM A TEST RESPONSE",
+    "description": "broken clouds",
+    "icon": "04d"
+  }],
+  "base": "stations",
+  "main": {
+    "temp": 294.11,
+    "feels_like": 293.85,
+    "temp_min": 291.6,
+    "temp_max": 296.06,
+    "pressure": 1018,
+    "humidity": 61
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.14,
+    "deg": 210
+  },
+  "clouds": {
+    "all": 65
+  },
+  "dt": 1628705179,
+  "sys": {
+    "type": 2,
+    "id": 2019646,
+    "country": "GB",
+    "sunrise": 1628656794,
+    "sunset": 1628710298
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}
