@@ -1,4 +1,11 @@
 import React, { Component } from 'react'
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+// import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
+
+
+import './Weather.css'
 
 class Weather extends Component {
   constructor(props) {
@@ -17,7 +24,17 @@ class Weather extends Component {
   render() {
     return (
       <div className="weather">
-      {this.state.items.map((item) => <p key={item}>{item["main"]}</p>)}
+        {this.state.items.map((item) => {
+          return (
+            <Card key={item} className="singleItem">
+              <CardContent>
+                <Typography>
+                  {item["main"]}
+                </Typography>
+              </CardContent>
+            </Card>
+          )
+        })}
       </div>
     )
   }
