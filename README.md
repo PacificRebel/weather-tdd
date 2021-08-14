@@ -77,8 +77,7 @@ TypeError: Cannot read property 'then' of undefined
 
        8 |
        9 |   componentDidMount() {
-    > 10 |     fetch("https://api.openweathermap.org/data/2.5/weather?q=Doha &appid=4f304d45f3b62616958643460868fc
-ac")
+    > 10 |     fetch("https://api.openweathermap.org/data/2.5/weather?q=Doha &appid=${process.env.REACT_APP_API_KEY}")
          |     ^
       11 |       .then(response => response.json())
       12 |       .then(data => {
