@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Weather from './Weather';
+import Temperature from './Temperature';
 import Grid from '@material-ui/core/Grid';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Grid container spacing={1}>
         <Grid container item xs={12} spacing={3}>
           <Grid item xs={4}>
+            <Temperature />
           </Grid>
           <Grid item xs={4}>
               <Weather />

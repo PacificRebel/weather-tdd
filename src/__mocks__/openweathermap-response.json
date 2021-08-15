@@ -11,7 +11,7 @@
   }],
   "base": "stations",
   "main": {
-    "temp": 294.11,
+    "temp": "2021",
     "feels_like": 293.85,
     "temp_min": 291.6,
     "temp_max": 296.06,
