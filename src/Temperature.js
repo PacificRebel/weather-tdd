@@ -26,7 +26,7 @@ class Temperature extends Component {
       console.log(data)
     let temperature = ''
     if (data.length > 0) {
-      data = data
+      temperature = data
     }
 
     return (
@@ -34,7 +34,7 @@ class Temperature extends Component {
             <Card key={temperature} className="singleItem">
               <CardContent>
                 <Typography>
-                  {data.temp} degrees celsius
+                  {temperature.temp} degrees celsius
                 </Typography>
               </CardContent>
             </Card>
