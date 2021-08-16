@@ -30,7 +30,7 @@ class Temperature extends Component {
             <Card key={data} className="singleItem">
               <CardContent>
                 <Typography>
-                  {data.temp} degrees celsius
+                  Temperature: {data.temp} °C
                 </Typography>
               </CardContent>
             </Card>

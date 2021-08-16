@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Weather from './Weather';
 import Temperature from './Temperature';
+import Humidity from './Humidity';
 import Grid from '@material-ui/core/Grid';
 
 function App() {
@@ -13,9 +14,10 @@ function App() {
             <Temperature />
           </Grid>
           <Grid item xs={4}>
-              <Weather />
+            <Weather />
           </Grid>
           <Grid item xs={4}>
+            <Humidity />
           </Grid>
 
         </Grid>
