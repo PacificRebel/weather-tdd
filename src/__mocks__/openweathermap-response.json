@@ -11,7 +11,7 @@
   }],
   "base": "stations",
   "main": {
-    "temp": "2021",
+    "temp": "I AM A TEST TEMPERATURE",
     "feels_like": 293.85,
     "temp_min": 291.6,
     "temp_max": 296.06,
