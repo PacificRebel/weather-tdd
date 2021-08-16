@@ -14,7 +14,7 @@ class Temperature extends Component {
   };
 
   componentDidMount() {
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Helsinki&appid=${process.env.REACT_APP_API_KEY}`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Helsinki&units=metric&appid=${process.env.REACT_APP_API_KEY}`)
       .then(response => response.json())
       .then(data => {
           this.setState({weatherItems: data["main"]})
@@ -24,17 +24,13 @@ class Temperature extends Component {
   render() {
     const data = this.state.weatherItems
       console.log(data)
-    let temperature = ''
-    if (data.length > 0) {
-      temperature = data
-    }
 
     return (
       <div className="weather">
-            <Card key={temperature} className="singleItem">
+            <Card key={data} className="singleItem">
               <CardContent>
                 <Typography>
-                  {temperature.temp} degrees celsius
+                  {data.temp} degrees celsius
                 </Typography>
               </CardContent>
             </Card>

@@ -24,7 +24,7 @@ test("shows weather", async () => {
 test("shows temperature", async () => {
   render(<Temperature />)
 
-  const element = await waitForElement(() => screen.getByText("I AM A TEST TEMPERATURE"))
+  const element = await waitForElement(() => screen.getByText("TEMPERATURE"))
 
   expect(element).toBeInTheDocument()
 })
