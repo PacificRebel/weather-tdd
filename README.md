@@ -4,7 +4,7 @@
 npx create-react-app weather-tdd
 
 ## 2. Weather component
-Add Weather.js file, which includes Openweathermap API call, hide key in .env folder.  
+Add Weather.js component, which includes Openweathermap API call, hide key in .env folder.  
 
 ## 3. Testing
 Write test in Weather.test.js. Mock the JSON output of the weather API, add it to ./__mocks__/openweathermap-response.json file.  
@@ -15,6 +15,11 @@ Download Material UI for styling (yarn add @material-ui/core)
 For structure, add grid to App.js, and cards to Weather.js.  
 Add styling to new Weather.css file.
 
+## 5. More components
+Add Temperature, Humidity and Location components and write tests.
+
+## 6. Add title and change fonts
+Improve the basic look by adding a trending font from Google fonts, and changing sizes.
 
 To run:
 
