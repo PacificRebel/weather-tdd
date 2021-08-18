@@ -3,6 +3,7 @@ import './App.css';
 import Weather from './Weather';
 import Temperature from './Temperature';
 import Humidity from './Humidity';
+import Location from './Location'
 import Grid from '@material-ui/core/Grid';
 
 function App() {
@@ -12,8 +13,11 @@ function App() {
           <Grid container item xs={12} spacing={3}>
           <Grid item xs={12}>
             <div className="appTitle">
-              <h1>Weather App</h1>
+              <h1>Weather</h1>
               </div>
+          </Grid>
+          <Grid item xs={12}>
+            <Location />
           </Grid>
           <Grid item xs={4}>
             <Temperature />

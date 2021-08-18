@@ -5,7 +5,9 @@
 }
 
 .appTitle {
+  justify-content: left;
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 .App-logo {

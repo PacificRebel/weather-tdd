@@ -4,6 +4,7 @@ import { render, screen, within, waitForElement } from '@testing-library/react'
 import Weather from './Weather'
 import Temperature from './Temperature'
 import Humidity from './Humidity'
+import Location from './Location'
 // mock fetch and return the mock response json
 import mockResponse from './__mocks__/openweathermap-response.json'
 
@@ -38,6 +39,14 @@ test("shows humidity", async () => {
   render(<Humidity />)
 
   const element = await waitForElement(() => screen.getByText("HUMIDITY"))
+
+  expect(element).toBeInTheDocument()
+})
+
+test("shows location", async () => {
+  render(<Location />)
+
+  const element = await waitForElement(() => screen.getByText("CITY HERE"))
 
   expect(element).toBeInTheDocument()
 })

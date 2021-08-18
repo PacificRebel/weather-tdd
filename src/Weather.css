@@ -11,8 +11,16 @@
   background-color: lightgrey;
 }
 
-#bloc1, #bloc2, #bloc3
-{
+#bloc1, #bloc2, #bloc3, #bloc4, #bloc5 {
   display:inline;
+}
+
+#bloc1, #bloc2, #bloc3 {
   font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+#bloc4, #bloc5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
 }
