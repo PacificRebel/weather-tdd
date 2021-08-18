@@ -30,7 +30,7 @@ class Humidity extends Component {
             <Card key={data} className="singleItem">
               <CardContent>
                 <Typography>
-                  Humidity: {data.humidity} %
+                  {data.humidity}
                 </Typography>
               </CardContent>
             </Card>

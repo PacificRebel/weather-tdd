@@ -5,18 +5,18 @@
   },
   "weather": [{
     "id": 803,
-    "main": "I AM A TEST RESPONSE",
-    "description": "broken clouds",
+    "main": "clouds",
+    "description": "I AM A TEST RESPONSE",
     "icon": "04d"
   }],
   "base": "stations",
   "main": {
-    "temp": "TEMPERATURE",
+    "temp": 2021,
     "feels_like": 293.85,
     "temp_min": 291.6,
     "temp_max": 296.06,
     "pressure": 1018,
-    "humidity": 61
+    "humidity": "HUMIDITY"
   },
   "visibility": 10000,
   "wind": {
