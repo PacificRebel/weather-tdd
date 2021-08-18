@@ -27,8 +27,9 @@ To run:
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Tests run with inbuilt react-scripts-test and Jest:
 ### `yarn test`
+
+Tests run with inbuilt react-scripts-test and Jest:
 
 ### `yarn build`
 
