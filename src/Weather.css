@@ -2,8 +2,9 @@
   text-align: center;
 }
 
-.singleItem {
+.weather {
   margin: 0.5em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .singleItem:hover {
@@ -12,5 +13,6 @@
 
 #bloc1, #bloc2, #bloc3
 {
-    display:inline;
+  display:inline;
+  font-family: 'Open Sans', sans-serif;
 }

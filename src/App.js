@@ -9,7 +9,12 @@ function App() {
   return (
     <div className="App">
       <Grid container spacing={1}>
-        <Grid container item xs={12} spacing={3}>
+          <Grid container item xs={12} spacing={3}>
+          <Grid item xs={12}>
+            <div className="appTitle">
+              <h1>Weather App</h1>
+              </div>
+          </Grid>
           <Grid item xs={4}>
             <Temperature />
           </Grid>
