@@ -23,14 +23,16 @@ class Temperature extends Component {
 
   render() {
     const data = this.state.weatherItems.temp
-      console.log(data)
+      // console.log(data)
 
     return (
       <div className="weather">
             <Card key={data} className="singleItem">
               <CardContent>
                 <Typography>
-                  {data}
+                  <li id="bloc1">Temperature: </li>
+                  <li id="bloc2">{data}</li>
+                  <li id="bloc3"> °C</li>
                 </Typography>
               </CardContent>
             </Card>

@@ -14,7 +14,7 @@ jest.spyOn(global, 'fetch').mockImplementation(() => {
   })
 }))
 
-console.log(mockResponse)
+// console.log(mockResponse)
 
 test("shows weather", async () => {
   render(<Weather />)

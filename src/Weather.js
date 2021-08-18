@@ -29,7 +29,8 @@ class Weather extends Component {
             <Card key={item} className="singleItem">
               <CardContent>
                 <Typography>
-                  {item["description"]}
+                  <li id="bloc1">Sky: </li>
+                  <li id="bloc2">{item["description"]}</li>
                 </Typography>
               </CardContent>
             </Card>

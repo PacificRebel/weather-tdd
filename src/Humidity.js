@@ -23,14 +23,16 @@ class Humidity extends Component {
 
   render() {
     const data = this.state.weatherItems
-      console.log(data)
+      // console.log(data)
 
     return (
       <div className="weather">
             <Card key={data} className="singleItem">
               <CardContent>
                 <Typography>
-                  {data.humidity}
+                  <li id="bloc1">Humidity: </li>
+                  <li id="bloc2">{data.humidity}</li>
+                  <li id="bloc3"> %</li>
                 </Typography>
               </CardContent>
             </Card>
