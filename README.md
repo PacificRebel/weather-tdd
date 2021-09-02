@@ -9,7 +9,8 @@ Add Weather.js component, which includes Openweathermap API call, hide key in .e
 
 ## 3. Testing
 Write test in Weather.test.js. Mock the JSON output of the weather API, add it to ./__mocks__/openweathermap-response.json file.  
-Test retreives 'I AM A TEST RESPONSE' from this folder to avoid breaching the API call limit with tests.  
+Test retrieves 'I AM A TEST RESPONSE' from this folder to avoid breaching the API call limit with tests.  
+Travis CI test passing.
 
 ## 4. Styling
 Download Material UI for styling (yarn add @material-ui/core)
