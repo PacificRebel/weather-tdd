@@ -28,7 +28,7 @@ class Weather extends Component {
         {this.state.items.map((item) => {
           return (
             <Card key={item} className="singleItem">
-              <CardActionArea href="https://www.youtube.com/watch?v=CvOB-Is_yYU">
+              <CardActionArea href="https://www.youtube.com/watch_popup?v=CvOB-Is_yYU&autoplay=1">
                 <CardContent>
                   <Typography>
                     <li id="bloc1">Sky: </li>
