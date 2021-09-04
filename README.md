@@ -23,6 +23,9 @@ Add Temperature, Humidity and Location components and write tests.
 ## 6. Add title and change fonts
 Improve the basic look by adding a trending font from Google fonts, and changing sizes.
 
+## 7. Add live webcam button to Weather.js
+Use CardActionArea from Material UI to add actions to buttons, firstly live Helsinki webcam to the central weather button.
+
 To run:
 
 ### `yarn start`
