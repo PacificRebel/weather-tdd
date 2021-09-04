@@ -50,3 +50,11 @@ test("shows location", async () => {
 
   expect(element).toBeInTheDocument()
 })
+
+test("links to Helsinki webcam", async () => {
+  render(<Weather />)
+
+  const element = await waitForElement(() => screen.getByRole("link"))
+
+  expect(screen.getByRole('link')).toHaveAttribute('href','https://www.youtube.com/watch?v=CvOB-Is_yYU');
+})
