@@ -23,7 +23,10 @@ Add Temperature, Humidity and Location components and write tests.
 ## 6. Add title and change fonts
 Improve the basic look by adding a trending font from Google fonts, and changing sizes.
 
-## 7. Add live webcam button to Weather.js
+## 7. Add Travis CI testing
+Travis tests passing (sign in via https://www.travis-ci.com/ and sync your GitHub project).
+
+## 8. Add live webcam button to Weather.js
 Use CardActionArea from Material UI to add actions to buttons, firstly live Helsinki webcam to the central weather button.
 
 To run:
