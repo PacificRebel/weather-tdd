@@ -5,6 +5,7 @@ import Temperature from './Temperature';
 import Humidity from './Humidity';
 import Location from './Location'
 import Grid from '@material-ui/core/Grid';
+import CardActionArea from '@material-ui/core/CardActionArea';
 
 function App() {
   return (
