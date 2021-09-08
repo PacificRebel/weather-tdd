@@ -56,5 +56,5 @@ test("links to Helsinki webcam", async () => {
 
   const element = await waitForElement(() => screen.getByRole("link"))
 
-  expect(screen.getByRole('link')).toHaveAttribute('href','https://www.youtube.com/watch?v=CvOB-Is_yYU');
+  expect(screen.getByRole('link')).toHaveAttribute('href','https://www.youtube.com/watch_popup?v=CvOB-Is_yYU&autoplay=1');
 })
