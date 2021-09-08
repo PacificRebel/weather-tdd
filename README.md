@@ -29,6 +29,9 @@ Travis tests passing (sign in via https://www.travis-ci.com/ and sync your GitHu
 ## 8. Add live webcam button to Weather.js
 Use CardActionArea from Material UI to add actions to buttons, firstly live Helsinki webcam to the central weather button.
 
+## 9. Style the cards with round edges
+But now I want to do stuff that a single-page app can't do, so will recreate this project with Next.js .
+
 To run:
 
 ### `yarn start`
