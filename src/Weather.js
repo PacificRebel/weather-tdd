@@ -33,6 +33,7 @@ class Weather extends Component {
                   <Typography>
                     <li id="bloc1">Sky: </li>
                     <li id="bloc2">{item["description"]}</li>
+                    <li id="bloc3"> %</li>
                   </Typography>
                 </CardContent>
               </CardActionArea>

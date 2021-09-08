@@ -3,6 +3,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 // import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import CardActionArea from '@material-ui/core/CardActionArea';
 
 
 import './Weather.css'
@@ -28,6 +29,7 @@ class Humidity extends Component {
     return (
       <div className="weather">
             <Card key={data} className="singleItem" style={{ border: "none", boxShadow: "none"}}>
+             <CardActionArea>
               <CardContent>
                 <Typography>
                   <li id="bloc1">Humidity: </li>
@@ -35,6 +37,7 @@ class Humidity extends Component {
                   <li id="bloc3"> %</li>
                 </Typography>
               </CardContent>
+              </CardActionArea>
             </Card>
       </div>
       )
