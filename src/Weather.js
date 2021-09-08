@@ -27,7 +27,7 @@ class Weather extends Component {
       <div className="weather">
         {this.state.items.map((item) => {
           return (
-            <Card key={item} className="singleItem">
+            <Card key={item} className="singleItem" style={{ border: "none", boxShadow: "none"}}>
               <CardActionArea href="https://www.youtube.com/watch_popup?v=CvOB-Is_yYU&autoplay=1">
                 <CardContent>
                   <Typography>

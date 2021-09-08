@@ -27,7 +27,7 @@ class Location extends Component {
 
     return (
       <div className="weather">
-            <Card key={data} className="singleItem">
+            <Card key={data} className="singleItem" style={{ border: "none", boxShadow: "none"}}>
               <CardContent>
                 <Typography>
                   <li id="bloc4">Current weather in </li>
