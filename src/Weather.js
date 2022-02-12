@@ -3,7 +3,6 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 // import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import CardActionArea from '@material-ui/core/CardActionArea';
 
 
 import './Weather.css'
@@ -28,7 +27,6 @@ class Weather extends Component {
         {this.state.items.map((item) => {
           return (
             <Card key={item} className="singleItem" style={{ border: "none", boxShadow: "none"}}>
-              <CardActionArea href="https://www.youtube.com/watch_popup?v=CvOB-Is_yYU&autoplay=1">
                 <CardContent>
                   <Typography>
                     <li id="bloc1">Sky: </li>
@@ -36,7 +34,6 @@ class Weather extends Component {
                     <li id="bloc3"> %</li>
                   </Typography>
                 </CardContent>
-              </CardActionArea>
             </Card>
           )
         })}

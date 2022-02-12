@@ -5,14 +5,14 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import CardActionArea from '@material-ui/core/CardActionArea';
 
+
 import './Weather.css'
 
-class Humidity extends Component {
-
+class Pressure extends Component {
   constructor(props) {
     super(props)
     this.state = { weatherItems: [] }
-  }
+  };
 
   componentDidMount() {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=Helsinki&units=metric&appid=${process.env.REACT_APP_API_KEY}`)
@@ -32,8 +32,8 @@ class Humidity extends Component {
              <CardActionArea>
               <CardContent>
                 <Typography>
-                  <li id="bloc1">Humidity: </li>
-                  <li id="bloc2">{data.humidity}</li>
+                  <li id="bloc1">Pressure: </li>
+                  <li id="bloc2">{data.pressure}</li>
                   <li id="bloc3"> %</li>
                 </Typography>
               </CardContent>
@@ -41,7 +41,7 @@ class Humidity extends Component {
             </Card>
       </div>
       )
-    };
+    }
   }
 
-export default Humidity
+export default Pressure

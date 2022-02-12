@@ -3,7 +3,7 @@ import './App.css';
 import Weather from './Weather';
 import Temperature from './Temperature';
 import Humidity from './Humidity';
-import Location from './Location'
+import Location from './Location';
 import Grid from '@material-ui/core/Grid';
 
 function App() {
